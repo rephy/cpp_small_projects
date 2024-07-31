@@ -9,5 +9,5 @@ int main(){
     std::string name;
     std::cout << "What is your name? " << std::flush;
     std::cin >> name;
-    std::cout << "\nHi, " + name + "!\n\n";
+    std::cout << "Hi, " + name + "!" << std::endl;
 }
